@@ -26,6 +26,15 @@ body {
   /* background: dodgerblue; */
 }
 
+.brand-img {
+  position: absolute;
+  height: 47.63773727416992px;
+  width: 193px;
+  left: 221px;
+  top: 50.2525634765625px;
+  border-radius: 0px;
+}
+
 .title {
   position: absolute;
   width: 458px;
@@ -47,4 +56,83 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
+}
+
+.app-store-btn {
+  position: absolute;
+  height: 46.277523040771484px;
+  width: 138.44346618652344px;
+  left: 221px;
+  top: 531px;
+  border-radius: 0px;
+}
+
+.app-store-btn img {
+  height: 46.277523040771484px;
+  width: 138.44346618652344px;
+}
+
+.google-play-btn {
+  position: absolute;
+  height: 46.27737045288086px;
+  width: 156.18612670898438px;
+  left: 381.8138732910156px;
+  top: 531px;
+}
+
+.google-play-btn img {
+  width: 156.18612670898438px;
+  left: 381.8138732910156px;
+}
+
+.main-image-container {
+  height: 309.2696533203125px;
+  width: 535.7173461914062px;
+  left: 683.28271484375px;
+  top: 229.7303466796875px;
+  border-radius: 0px;
+}
+
+.main-image-container img {
+  height: 411.15px;
+}
+
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+}
+
+.orders-img {
+  position: absolute;
+  height: 470px; /* Had to change to show full box shadow */
+  left: 479px;
+  right: 737px;
+  top: 913px;
+}
+
+.home-img {
+  position: absolute;
+  height: 470px; /* Had to change to show full box shadow */
+  left: 995px;
+  right: 221px;
+  top: 908px;
+}
+
+.cart-img {
+  position: absolute;
+  height: 222px; /* Had to cut in half */
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+}
+
+.product-img {
+  position: absolute;
+  height: 222px; /* Had to cut in half */
+  left: 737px;
+  right: 479px;
+  top: 1157px;
 }
