@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 html {
   box-sizing: border-box;
@@ -6,12 +6,11 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
   overflow-x: hidden;
-  min-height: 100vh;
+  font-family: Lato, sans-serif;
   color: #54575a;
   background: linear-gradient(
-    180deg,
+    to bottom,
     #ffffff 0%,
     #f3f8f7 49.91%,
     #fff9f5 94.19%
@@ -21,18 +20,16 @@ body {
 .wrapper {
   position: relative;
   width: 1440px;
-  min-height: 100vh;
+  height: 1379px;
   margin: auto;
-  /* background: dodgerblue; */
 }
 
 .brand-img {
   position: absolute;
-  height: 47.63773727416992px;
   width: 193px;
+  height: 47.64px;
   left: 221px;
-  top: 50.2525634765625px;
-  border-radius: 0px;
+  top: 50.25px;
 }
 
 .title {
@@ -46,6 +43,7 @@ body {
   font-size: 64px;
   line-height: 67px;
 }
+
 .text {
   position: absolute;
   width: 394px;
@@ -60,37 +58,36 @@ body {
 
 .app-store-btn {
   position: absolute;
-  height: 46.277523040771484px;
-  width: 138.44346618652344px;
+  width: 138.44px;
+  height: 46.28px;
   left: 221px;
   top: 531px;
-  border-radius: 0px;
 }
 
 .app-store-btn img {
-  height: 46.277523040771484px;
-  width: 138.44346618652344px;
+  width: 138.44px;
+  height: 46.28px;
 }
 
 .google-play-btn {
   position: absolute;
-  height: 46.27737045288086px;
-  width: 156.18612670898438px;
-  left: 381.8138732910156px;
+  width: 158.19px;
+  height: 48.28px;
+  left: 381.81px;
   top: 531px;
 }
 
 .google-play-btn img {
-  width: 156.18612670898438px;
-  left: 381.8138732910156px;
+  width: 158.19px;
+  height: 48.28px;
 }
 
 .main-image-container {
-  height: 309.2696533203125px;
-  width: 535.7173461914062px;
-  left: 683.28271484375px;
-  top: 229.7303466796875px;
-  border-radius: 0px;
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
 }
 
 .main-image-container img {
