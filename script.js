@@ -1,6 +1,8 @@
 const { body } = document;
 
 function changeBackground(number){
+    //Reset CSS class for body
+    body.className = '';
     switch (number){
         case '1':
             body.classList.add('background-1');
